@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 242, 232);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+
+}
+.card{
+    height: 80vh;
+    width: 55vh;
+    background-color: rgb(5, 7, 105);
+    transition: box-shadow 1s;
+    
+}
+.card:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.main{
+    text-decoration: underline;
+}
+.card-img-top{
+    border-radius: 34px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-top: 1px solid  rgb(5, 7, 105) ;
+    border-right: 1px solid  rgb(5, 7, 105) ;
+    border-left: 1px solid  rgb(5, 7, 105) ;
+    background-color: thistle;
+}
+
+.btn{
+    width: 150px;
+    height: 34px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: yellow;
+}
